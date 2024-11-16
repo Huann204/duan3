@@ -193,3 +193,35 @@ div.contact {
 .footer .font15 a:hover {
   color: #4caf50;
 }
+@media only screen and (max-width: 46.1875em) {
+  /* For mobile screens */
+  .nav {
+    display: none;
+  }
+  .architects strong {
+    display: none;
+  }
+  .house {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .list-house {
+    display: block;
+  }
+  .list-house .house {
+    width: 100%;
+  }
+  .list-house .house + .house {
+    margin-left: 0;
+  }
+  .list-member {
+    display: block;
+  }
+  .info-member {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .info-member + .info-member {
+    margin-left: 0;
+  }
+}
